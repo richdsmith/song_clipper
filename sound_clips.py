@@ -36,7 +36,7 @@ for file in files:
         continue
 
     # Select a random segment
-    number_of_segs = floor(len(song)/5000)
+    number_of_segs = floor(len(song)/seg_size)
 
     rand_seg_int = randint(1,number_of_segs-1)
 
